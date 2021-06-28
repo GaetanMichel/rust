@@ -1,7 +1,13 @@
 [package]
-name = "guessing_game"
+name = "guessing-game"
 version = "0.1.0"
 edition = "2018"
+authors = ["Gaetan Michel"]
+description = "Test with guessing game app"
+repository = "https://github.com/GaetanMichel/rust/tree/main/guessing-game"
+license = "MIT"
+
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
