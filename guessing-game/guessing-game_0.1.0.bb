@@ -8,10 +8,10 @@ inherit cargo
 # how to get guessing-game could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/guessing-game/0.1.0"
 SRC_URI += "git://github.com/GaetanMichel/rust;protocol=https;nobranch=1;branch=main"
-SRCREV = "b3ff433cb4333f7c209740a99fd8c7e807a84b03"
+SRCREV = "6559c6f49f866e56b0700395f91f39b981264350"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV_append = ".AUTOINC+b3ff433cb4"
+PV_append = ".AUTOINC+6559c6f49f"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
@@ -31,7 +31,7 @@ SRC_URI += " \
 
 # FIXME: update generateme with the real MD5 of the license file
 LIC_FILES_CHKSUM = " \
-    file://MIT;md5=generateme \
+    file://LICENSE;md5=f3e38c1f1e0db893f5e9a1b4328246d3 \
 "
 
 SUMMARY = "Test with guessing game app"
